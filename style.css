@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(240 , 240, 240);
+  font-family: 'Montserrat', sans-serif;
+  color : rgb(60 , 60, 60);
+  line-height: 20px;
+}
+
+h1 {
+  color : rgb(70 , 70, 70);
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h2 {
+  color : rgb(70 , 70, 70);
+  font-size: 18px;
+  line-height: 23px;
+}
+
+a {
+  color: #936048;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color : black;
+}
+
+p {
+  padding: 10px;
+}
+
+.image-circle {
+  width: 120;
+  height: 120;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 2px 2px 8px rgb(200 , 200, 200);
+}
+
+.container {
+  width: 600;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.card{
+  background-color: rgb(250 , 250, 250);
+  border-radius: 2px;
+  box-shadow: 2px 2px 8px rgb(200 , 200, 200);
+  padding: 10px 10px 40px 10px;
+  margin: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button-brown{
+  background-color: #936048;
+  padding: 10px 15px;
+  border-radius: 2px;
+  color: white;
+}
+
+.icons-size{
+  font-size: 50px
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  background-color: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
